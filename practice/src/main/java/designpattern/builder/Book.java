@@ -7,7 +7,7 @@ public class Book {
     private final String author;
     private final String description;
 
-    public Book(Builder builder) {
+    private Book(Builder builder) {
         this.isbn = builder.icbn;
         this.title = builder.title;
         this.author = builder.author;
