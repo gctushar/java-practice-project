@@ -1,6 +1,6 @@
-package client;
+package genericspractice.client;
 
-import generic.CompareExample;
+import genericspractice.generics.CompareExample;
 
 public class Client {
     public static void main(String[] args) {
