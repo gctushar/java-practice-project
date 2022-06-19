@@ -2,7 +2,7 @@ package designpattern.singleton;
 
 public class DoubleChecking {
 
-    private static DoubleChecking instance = null;
+    private static volatile DoubleChecking instance = null;
 
     private DoubleChecking() {
 
