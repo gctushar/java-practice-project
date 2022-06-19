@@ -1,4 +1,4 @@
-package designpattern.singleton.builder;
+package designpattern.builder;
 
 public class Book {
 
