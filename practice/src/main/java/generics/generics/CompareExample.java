@@ -1,4 +1,4 @@
-package genericspractice.generics;
+package generics.generics;
 
 public class CompareExample {
 
