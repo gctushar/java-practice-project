@@ -3,7 +3,7 @@ package designpattern.factory;
 public class MessageFactory {
 
 
-    public static Message getMessage(MessageType messageType) {
+    public static Message createMessage(MessageType messageType) {
         switch (messageType) {
             case LongMessage:
                 return new LongMessage();

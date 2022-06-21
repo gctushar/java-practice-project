@@ -4,13 +4,13 @@ public class App {
 
     public static void main(String[] args) {
 
-        Message message = MessageFactory.getMessage(MessageType.LongMessage);
+        Message message = MessageFactory.createMessage(MessageType.LongMessage);
         System.out.println(message.getMessage());
 
-        message = MessageFactory.getMessage(MessageType.ShortMessage);
+        message = MessageFactory.createMessage(MessageType.ShortMessage);
         System.out.println(message.getMessage());
 
-        message = MessageFactory.getMessage(MessageType.VeryShortMessage);
+        message = MessageFactory.createMessage(MessageType.VeryShortMessage);
         System.out.println(message.getMessage());
     }
 }
