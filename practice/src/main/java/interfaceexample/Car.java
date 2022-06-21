@@ -10,4 +10,8 @@ public interface Car {
     static void honk(){
         System.out.println("Static honk");
     }
+
+    default void honk(Integer x){
+        System.out.println(x);
+    }
 }
