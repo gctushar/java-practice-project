@@ -14,4 +14,8 @@ public class MyDIApplication implements Consumer {
         this.messageService.sendMessage(message, receiver);
     }
 
+    public void  setMessageService(MessageService messageService){
+        this.messageService = messageService;
+    }
+
 }

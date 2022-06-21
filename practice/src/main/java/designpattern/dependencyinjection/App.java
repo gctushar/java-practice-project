@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        String message = "This is a message and this message will be used for Email";
+        String message = "This is a message";
         String receiverEmail = "testemail@test.com";
         String receiverPhone = "222-111-0000";
 
@@ -22,7 +22,7 @@ public class App {
         MyDIApplication myDIApplication = new MyDIApplication(new SMSServiceImpl());
         myDIApplication.processMessage(message, receiverPhone);
 
-        myDIApplication = new MyDIApplication(new EmailServiceImp());
+        myDIApplication.setMessageService(new EmailServiceImp());
         myDIApplication.processMessage(message, receiverEmail);
 
     }
