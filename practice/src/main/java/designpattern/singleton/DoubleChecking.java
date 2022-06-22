@@ -5,7 +5,6 @@ public class DoubleChecking {
     private static volatile DoubleChecking instance = null;
 
     private DoubleChecking() {
-
         instance = new DoubleChecking();
     }
 
