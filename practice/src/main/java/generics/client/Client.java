@@ -17,7 +17,7 @@ public class Client {
 
 
         try {
-            System.out.println("\nExample with Compareable: ");
+            System.out.println("\nExample with Comparable: ");
             System.out.println(CompareExample.compareWithComparable("ab","ab"));
             System.out.println(CompareExample.compareWithComparable("ab","abc"));
             System.out.println(CompareExample.compareWithComparable(1.2,1.2));
