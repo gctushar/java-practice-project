@@ -56,6 +56,21 @@ public class Linklist<T> {
         return size;
     }
 
+    public void reverse() {
+
+        Node current = head;
+        Node next = null;
+        Node previous = null;
+
+        while (current != null) {
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+        head = previous;
+    }
+
     private class Node {
         T data;
         Node next;

@@ -32,5 +32,9 @@ public class App {
         linklist2.add(9);
 
         linklist2.printAll();
+
+        linklist2.reverse();
+//
+        linklist2.printAll();
     }
 }
