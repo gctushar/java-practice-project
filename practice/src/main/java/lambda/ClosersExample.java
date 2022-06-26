@@ -1,5 +1,9 @@
 package lambda;
 
+interface Process {
+    void process(int i);
+}
+
 public class ClosersExample {
 
 
@@ -16,10 +20,5 @@ public class ClosersExample {
         process.process(a);
     }
 
-
-    interface Process {
-        void process(int i);
-    }
 }
-
 
